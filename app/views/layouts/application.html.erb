@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Liking Postsand Photos like Facebbok and Twitter</title>
+    
+    <title>
+      <%if content_for?(:title)%>
+        <%= yield(:title)%>
+      <%else%>
+        Liking Postsand Photos like Facebbok and Twitter
+      <%end%>
+    </title>
+
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
