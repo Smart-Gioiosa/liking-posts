@@ -38,3 +38,5 @@ doc/
 .secret
 dump.rdb
 sidekiq.log
+/public/packs
+/node_modules
