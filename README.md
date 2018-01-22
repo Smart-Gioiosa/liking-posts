@@ -10,9 +10,9 @@ Web application based on the  [episode:] (https://gorails.com/episodes/liking-po
 
 ### FEATURES:
 
-* Ruby version: 2.5.0dev
+* Ruby version: 2.5.0
 
-* Rails version: 5.1.2
+* Rails version: 5.1.4
 
 ### RESOURCES
 
